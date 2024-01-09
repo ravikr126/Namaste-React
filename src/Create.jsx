@@ -12,7 +12,7 @@ const Create = () => {
     e.preventDefault();
     console.log("clciekd");
     axios
-      .post("https://62a59821b9b74f766a3c09a4.mockapi.io/crud-youtube", {
+      .post("https://659cdf24633f9aee79080d70.mockapi.io/users", {
         name: name,
         email: email,
       })
